@@ -51,32 +51,51 @@ Now that we have PET we can subtract it from precipitation to find the effective
 For the next step we need to download annual ET0 and Precipitation for the period 1970-2000 from the global datasets. After the files are downloaded the user should open the jupyter notebook in ArcGIS Pro and follow the procedure outlined in there. Below a short step by step guide is provided:
 
 **Set up Environment and Licenses**:
+
 Import necessary modules from arcpy.
 Check out Spatial Analyst and Image Analyst extensions licenses.
+
 **Set Analysis Environments**:
+
 Set the workspace to the appropriate geodatabase.
 Enable overwriting output.
+
 **Import Data into Geodatabase**:
+
 Convert raster and shapefile data to the geodatabase.
 Import CSV file as point data using XYTableToPoint tool.
+
 **Project Feature Classes**:
+
 Project point and polygon feature classes to a desired coordinate system (NAD 1983 UTM Zone 15N).
+
 **Project Raster Data**:
+
 Project raster data (Annual_ET0 and Annual_Prec) to the desired coordinate system (NAD 1983 UTM Zone 15N).
+
 **Select and Clip Raster Data**:
+
 Select a specific county (Perry county in Missouri) using a SQL query.
 Clip the projected rasters to the extent of the selected county.
+
 **Perform Raster Operations**:
+
 Perform raster calculation (subtraction) to find the difference between two rasters (AnPrec_Perry and AnET0_Perry).
 Save the output raster.
+
 **Create Points and Project Coordinates**:
+
 Define points using coordinates.
 Create point geometries and project them to the desired coordinate system (NAD 1983 UTM Zone 15N).
 Print the projected coordinates.
+
 **Set Extent and Perform Interpolation**:
+
 Set the extent environment.
 Perform IDW interpolation on the point data.
 Save the interpolated result.
+
 **Compute Raster Difference**:
+
 Perform raster calculation (subtraction) to find the difference between two rasters (outMinus and outIDW).
 Save the output raster.
