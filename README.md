@@ -5,7 +5,55 @@ Dionysios Stamatis - Reconstructing Temperature and moisture patterns using stal
 
 Dionysios Stamatis holds a BSc in Geology and an MSc in Geosciences from the University of Patras, Greece. Currently a second-year PhD student in the Earth and Environmental Science Department at the University of Iowa, USA, his research focuses on unraveling temperature and precipitation patterns during past Interglacials. To achieve this, he employs a range of analytical techniques, including measuring δ18O, δ13C, δ44Ca, trace elements, Dual-Clumped Isotopes, and TEX86 in speleothems. His aim is to illuminate the hydroclimate dynamics of the Midcontinental USA during periods resembling projected future climate conditions.
 
+Dionysios Stamatis
+151 Westside Drive, Iowa City, IA 52246, USA • tel: (+1) 952-297-5609 • dionysios-stamatis@uiowa.edu
+EDUCATION
+University of Iowa, USA    				                                                                08/2022 - 05/2027
+•	PhD in Geosciences 
+o	Current Grade: 3.41/4 
+o	Thesis: Deciphering the PCP effect on stalagmites from Crevice Cave, Missouri using calcium isotope and trace element analyses
 
+University of Patras, Greece				                                                                09/2019 - 12/2021
+•	MSc in Geosciences and the Environment (2-year degree; 90 ECTS)
+o	Grade: 9.27/10 (Distinction)
+o	Thesis: Paleoenvironmental evolution of Lousoi lake during the Holocene, Northern Peloponnese, Greece (Grade: 10/10)
+
+University of Patras, Greece				                                                               10/2015 - 12/2019
+•	BSc in Geology (4-year degree; 240 ECTS)                                                                                     
+o	Grade: 7.34/10 (graduated 9th out of a class of 180 students)
+o	Specialization: Sedimentology, Geochemistry and Micropaleontology
+o	Thesis: Sedimentological and Geochemical study of Upper Holocene of lake
+Vouliagmeni, Corinth gulf, Greece (Grade: 10/10)
+
+Christian-Albrechts University, Kiel, Germany                                                                                 11/2020 - 12/2020
+•	Erasmus exchange student at the Institute of Geosciences at the Faculty of Mathematics and Natural Sciences
+
+RESEARCH EXPERIENCE
+Lab Assistant, Sedimentology Lab, Patras, Greece 		                                                               10/2018 - 10/2021
+•	Assisted in drilling expeditions of the Sedimentology lab, preparation, and analysis of the samples  
+Reasearch Assistant, Sedimentology Lab, Patras, Greece 		                                                  09/2018 - 09/2019
+•	Assisted in the sampling, sedimentological, geochemical and magnetic susceptibility analysis of a varved record as part of a team of undergraduate students
+WORK EXPERIENCE
+Engineering Geologist, GaiaComm Ltd., Greece 		                                                               11/2021 – 06/2022
+
+PUBLICATIONS
+•	Dionysios Stamatis, Alexandros Emmanouilidis, Alessia Masi, Adam Izdebski, and Pavlos Avramidis, “Holocene hydroclimatic changes of Northern Peloponnese, Greece, inferred from karst lake systems” (Water)
+
+SKILLS 
+•	Programming	 	R, MATLAB, Python
+•	Software Tools		ArcGIS Pro, QGIS, ImageJ, Tinytag Explorer, Hoboware
+•	Statistics                         Bayesian statistics
+
+VOLUNTEERING
+•	Hellenic Red Cross, Samaritan/Rescuer, 2015-2020
+
+LANGUAGES
+•	English (fluent), Greek (native)
+
+
+
+
+Project
 
 Introduction:
 
