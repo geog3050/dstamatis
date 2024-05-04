@@ -24,3 +24,59 @@ Methods:
 PET Calculation: PyETo is a Python library for calculating reference crop evapotranspiration (ETo), sometimes referred to as potential evapotranspiration (PET). The library provides numerous functions for estimating missing meteorological data. For estimating ETo/PET the Thornthwaite (Thornthwaite, 1948) method will be implemented.
 
 Effective Rainfall Calculation: This will be done in Excel by subtracting potential evapotranspiration from precipitation values. This calculation will provide insights into the actual water input available for infiltration into the selected cave systems.
+
+
+Step by Step:
+
+First of all, we will calculate annual PET.
+
+Here's a step-by-step guide based on the Thornthwaite (1948) equation example for estimating monthly Potential Evapotranspiration (PET) in 2023 for Perryville, Missouri from the first weather station KMOPERRY49 (latitude 37.69 degrees N):
+
+1. **Convert Latitude to Radians**:
+   - Convert the latitude from degrees to radians using the `deg2rad` function.
+
+2. **Calculate Monthly Mean Daylight Hours**:
+   - Use the `monthly_mean_daylight_hours` function to calculate the mean daylight hours for each month of the year based on the converted latitude and the year (2023 in this case).
+
+3. **Collect Monthly Mean Temperature Data**:
+   - Prepare a list of monthly mean temperatures in degrees Celsius for Perryville in 2023.
+
+4. **Apply Thornthwaite Equation**:
+   - Utilize the `thornthwaite` function, providing the monthly mean temperatures and the calculated mean daylight hours for each month as inputs. This function will compute the PET for each month.
+
+By following these steps, you can estimate monthly PET using the Thornthwaite equation for a specific location based on mean monthly temperature and daylight hours. 
+
+Now that we have PET we can subtract it from precipitation to find the effective rainfall.
+
+For the next step we need to download annual ET0 and Precipitation for the period 1970-2000 from the global datasets. After the files are downloaded the user should open the jupyter notebook in ArcGIS Pro and follow the procedure outlined in there. Below a short step by step guide is provided:
+
+**Set up Environment and Licenses**:
+Import necessary modules from arcpy.
+Check out Spatial Analyst and Image Analyst extensions licenses.
+**Set Analysis Environments**:
+Set the workspace to the appropriate geodatabase.
+Enable overwriting output.
+**Import Data into Geodatabase**:
+Convert raster and shapefile data to the geodatabase.
+Import CSV file as point data using XYTableToPoint tool.
+**Project Feature Classes**:
+Project point and polygon feature classes to a desired coordinate system (NAD 1983 UTM Zone 15N).
+**Project Raster Data**:
+Project raster data (Annual_ET0 and Annual_Prec) to the desired coordinate system (NAD 1983 UTM Zone 15N).
+**Select and Clip Raster Data**:
+Select a specific county (Perry county in Missouri) using a SQL query.
+Clip the projected rasters to the extent of the selected county.
+**Perform Raster Operations**:
+Perform raster calculation (subtraction) to find the difference between two rasters (AnPrec_Perry and AnET0_Perry).
+Save the output raster.
+**Create Points and Project Coordinates**:
+Define points using coordinates.
+Create point geometries and project them to the desired coordinate system (NAD 1983 UTM Zone 15N).
+Print the projected coordinates.
+**Set Extent and Perform Interpolation**:
+Set the extent environment.
+Perform IDW interpolation on the point data.
+Save the interpolated result.
+**Compute Raster Difference**:
+Perform raster calculation (subtraction) to find the difference between two rasters (outMinus and outIDW).
+Save the output raster.
