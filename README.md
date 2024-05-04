@@ -11,7 +11,7 @@ EDUCATION
 University of Iowa, USA    				                                                                08/2022 - 05/2027
 •	PhD in Geosciences 
 o	Current Grade: 3.41/4 
-o	Thesis: Deciphering the PCP effect on stalagmites from Crevice Cave, Missouri using calcium isotope and trace element analyses
+o	Thesis: Reconstructing Temperature and moisture patterns using stalagmites from Crevice Cave, Missouri
 
 University of Patras, Greece				                                                                09/2019 - 12/2021
 •	MSc in Geosciences and the Environment (2-year degree; 90 ECTS)
