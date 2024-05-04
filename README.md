@@ -2,6 +2,7 @@
 geog3050/dstamatis - Dionysios Stamatis
 
 Dionysios Stamatis - Reconstructing Temperature and moisture patterns using stalagmites from Crevice Cave, Missouri
+
 Dionysios Stamatis holds a BSc in Geology and an MSc in Geosciences from the University of Patras, Greece. Currently a second-year PhD student in the Earth and Environmental Science Department at the University of Iowa, USA, his research focuses on unraveling temperature and precipitation patterns during past Interglacials. To achieve this, he employs a range of analytical techniques, including measuring δ18O, δ13C, δ44Ca, trace elements, Dual-Clumped Isotopes, and TEX86 in speleothems. His aim is to illuminate the hydroclimate dynamics of the Midcontinental USA during periods resembling projected future climate conditions.
 
 
