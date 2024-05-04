@@ -1,6 +1,11 @@
 # dstamatis
 geog3050/dstamatis - Dionysios Stamatis
 
+Dionysios Stamatis - Reconstructing Temperature and moisture patterns using stalagmites from Crevice Cave, Missouri
+Dionysios Stamatis holds a BSc in Geology and an MSc in Geosciences from the University of Patras, Greece. Currently a second-year PhD student in the Earth and Environmental Science Department at the University of Iowa, USA, his research focuses on unraveling temperature and precipitation patterns during past Interglacials. To achieve this, he employs a range of analytical techniques, including measuring δ18O, δ13C, δ44Ca, trace elements, Dual-Clumped Isotopes, and TEX86 in speleothems. His aim is to illuminate the hydroclimate dynamics of the Midcontinental USA during periods resembling projected future climate conditions.
+
+
+
 Introduction:
 
 The aim of this project is to harness geospatial programming techniques to integrate two key datasets: the Global Aridity Index and Potential Evapotranspiration Database (Zomer, et al., 2022) and the WorldClim 2 climate surfaces (Fick & Hijmans, 2017). These datasets will be utilized to generate comprehensive maps encompassing temperature, precipitation, and effective rainfall. Finally, modern effective rainfall will be calculated for 2023. The overarching objective is to employ these mapped variables to support cave studies, particularly in calculating effective rainfall for selected cave systems. Effective rainfall, defined as the disparity between precipitation and potential evapotranspirationv(PET), holds significance in understanding water infiltration patterns within cave environments. To calculate modern effective rainfall you will need temperature and precipitation data from weather stations. For example in this project, two weather stations with data for Perryville, Missouri were used. 
