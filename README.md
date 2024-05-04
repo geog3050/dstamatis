@@ -7,7 +7,7 @@ The aim of this project is to harness geospatial programming techniques to integ
 
 Data Requirements:
 
-1. Global Aridity Index and Potential Evapotranspiration Database (Version 3): This dataset provides essential information regarding potential evapotranspiration and aridity index on a global scale. The data will serve as a fundamental component in assessing water availability and climatic conditions.
+Global Aridity Index and Potential Evapotranspiration Database (Version 3): This dataset provides essential information regarding potential evapotranspiration and aridity index on a global scale. The data will serve as a fundamental component in assessing water availability and climatic conditions.
 
 Zomer, R.J., Xu, J., & Trabucco, A. (2022). Version 3 of the Global Aridity Index and Potential Evapotranspiration Database. Scientific Data, 9(1), 409. [DOI: 10.1038/s41597-022-01493-1](https://doi.org/10.1038/s41597-022-01493-1)
 
